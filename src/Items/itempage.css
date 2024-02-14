@@ -1,0 +1,261 @@
+.summery .summery-sales .item-heading{
+    display: flex;
+    flex-direction: row;
+}
+.summery .summery-sales .item-heading .machinary{
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+.summery .summery-sales .item-heading .machinary hr{
+    width: 200px;
+    margin-left: 0px;
+    border: 1px solid #123058;
+}
+.summery .summery-sales .item-heading .home{
+    display: flex;
+    flex-direction: row;
+    background-color: #87B6F4;
+    height: 50px;
+    margin-top: 25px;
+    width: 120px;
+    margin-left: 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.summery .summery-sales .item-heading .home svg{
+    background-color: transparent;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.summery .summery-sales .item-heading .home h3{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.summery .summery-sales .item-heading svg{
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin-top: 35px;
+    border-radius: 50%;
+    background-color: #87B6F4;
+    margin-right: 20px;
+    fill: black;
+}
+
+.summery .summery-sales .item-heading .searchbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #F0EEF4;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.summery .summery-sales .item-heading .searchbar h5{
+    margin-top: 18px;
+    margin-left: 20px;
+    color: #87B6F4;
+}
+.summery .summery-sales .item-heading .searchbar svg{
+    background-color: transparent;
+    fill: #123058;
+    margin-left: 150px;
+    margin-top: 12px;
+}
+.summery .summery-sales .item-heading .import{
+    width: 140px;
+}
+.summery .summery-sales .sample-table{
+    margin-top: -20px;
+}
+.summery .summery-sales .sample-table th, .sample-table td {
+    padding: 5px; /* Adjust the padding for height */
+    text-align: left;
+    height: 33px; /* Set the height as needed */
+}
+.summery .summery-sales .sample-table th, .sample-table .last-row{
+    border-bottom: 2px solid #87B6F4;
+}
+
+.summery .transmition{
+    display: flex;
+    flex-direction: row;
+    margin-left: -80px;
+    justify-content: center;
+}
+.summery .transmition a{
+    text-decoration: none;
+    color: #123058;
+    font-size: 13px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.summery .transmition a svg{
+    margin-top: -5px;
+}
+.summery .transmition .current{
+    background-color: #87B6F4;
+}
+
+.newWindow {
+    max-width: 400px; 
+    margin: 0 auto;
+}
+
+.newWindow a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%;
+    background-color: #87B6F4;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.newWindow svg {
+    fill: white; 
+}
+
+.heading svg{
+    width: 18px;
+    height: 18px;
+    margin-left: 5px;
+}
+
+.newWindow{
+    position:relative
+}
+
+.newWindow h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+.newWindow .row {
+    margin-top: 0px;
+    display: flex;
+}
+
+.newWindow .column {
+    flex: 1;
+    margin-right: 50px;
+    margin-left: 10px; /* Adjust margin between columns */
+}
+
+.newWindow h5 {
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.newWindow input {
+    padding: 8px;
+    border: 1px solid #F0EEF4;
+    border-radius: 4px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.5);
+    width: 110%;
+    outline: none;
+}
+
+.newWindow .add-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #87B6F4; 
+    color: black; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    margin-bottom: 20px;
+    margin-left: 125px;
+    margin-top: 20px;
+    
+}
+
+.newWindow .add-item svg {
+    margin-right: 10px;
+    fill: black; 
+}
+
+.newWindow .add-item h3 {
+    margin: 0; 
+    font-size: 14px; 
+}
+
+.newWindow .camera{
+    width: 30px;
+    height: 30px;
+    fill: black;
+    background-color: #87B6F4;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+tbody hr{
+    width: 3600%;
+}
+
+@media (min-width: 1650px){
+    .machinary h5{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .summery .summery-sales .item-heading .sort{
+    background-color: #87B6F4;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 20px;
+    fill: black;
+    
+
+    }
+    .summery .summery-sales .item-heading .searchbar{
+        margin-top: 10px;
+
+    }
+    .summery .summery-sales .item-heading .home{
+        margin-top: 10px;
+    }
+
+    .summery .summery-sales .item-heading .sort1{
+        margin-left: 12%;
+    }
+    th span{
+        font-size: 20px;
+    }
+    td span{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    tbody hr{
+        margin-top: 350%;
+        border-color: #87B6F4;
+    }
+
+}

@@ -1,0 +1,136 @@
+/* SignUpPage.css */
+body {
+    overflow-x: hidden;
+}
+
+.signup-page {
+    display: flex;
+    background-color: #ccc;
+}
+
+.logo-container {
+    flex: 1;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 230px;
+}
+
+.getstart-text {
+    margin-left: 170px;
+}
+
+.signup-card {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.single-column-form {
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.single-column-form input::placeholder {
+    color: lightskyblue; 
+}
+
+
+
+.form-row{
+    margin-left: 170px;
+}
+.form-row1 {
+    display: flex;
+    width: 50%;
+    border-radius: 50px;
+    margin-left: 180px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.form-row2 {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.form-row2 label {
+    width: auto; /* Allow label to take available width */
+    margin-right: 10px; /* Add spacing between checkbox and label */
+}
+
+.form-row2 input {
+    width: auto; /* Allow checkbox to take available width */
+}
+
+.form-row1 input {
+    background-color: rgb(228, 226, 226);
+    color: aqua;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    color: blue;
+}
+
+button1 {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #130159;
+    color: white;
+    margin-top: 10px;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.social-icons{
+        width: 40%;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 300px;
+
+}
+
+.social-icons img {
+    max-width: 20px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 40px;
+
+}
+
+.last{
+    margin-left: 250px;
+}
+
+/* Additional styling as needed... */

@@ -1,0 +1,765 @@
+.list-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.list-container.open {
+    max-height: 120px; /* Set the max-height to the desired open height */
+}
+
+.up-arrow,
+.down-arrow {
+    transition: transform 0.3s ease-in-out;
+}
+
+.up-arrow {
+    transform: rotate(0deg);
+}
+
+.dashbord-page{
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row ;
+}
+
+.navbar{
+    width: 200px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+    transition: background-color 0.3s; /* Add transition for a smooth effect */
+    cursor: pointer; /* Add cursor pointer for better user interaction */
+}
+
+.setting{
+    margin-top: 200px;
+    
+}
+.setting1{
+    margin-top: 10px;
+    
+}
+
+.home h3{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.home svg{
+    margin-top: 10px;
+    margin-left: 20px;  
+}
+
+.dashbord-page .navbar .home:hover h3{
+    color: white;
+}
+
+.dashbord-page .navbar .home:hover{
+    background-color: #123058;
+    color: white;
+    fill: aliceblue;
+}
+
+.dashbord-page .navbar hr{
+    width: 180px;
+}
+.home h3{
+    font-size: 15px;
+}
+
+.dashbord-page .navbar .logo img{
+    width: 150px;
+    padding: 20px;
+}
+
+
+.dashbord .title{
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+}
+
+.dashbord .title h2{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.bell{
+    margin-left: 850px;
+    background-color: #87B6F4;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.profile{
+    margin-left: 30px;
+    background-color: #87B6F4;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.profileName{
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 7px;
+}
+
+.dashbord-page .summery{
+    width: 1200px;
+    height: 620px;
+    background-color: rgb(234, 234, 234);
+    margin: -20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.dashbord-page .summery .summery-sales{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding-left: 20px;
+    width: 1180px;
+    height: 630px;
+    background-color: white;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.analitic{
+    display: flex;
+    flex-direction: row;
+}
+.analitic svg{
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    border-radius: 50%;
+    background-color: #123058;
+    margin-right: 20px;
+    fill: #87B6F4;
+}
+.analitic .sales-month{
+    margin-top: 5px;
+}
+
+.analitic .sales-month h5{
+    line-height: 0px;
+    margin-top: -1px;
+    font-size: 12px;
+    margin-bottom: 18px;
+
+}
+
+.month{
+    margin-top: 10px;
+    width: 860px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background-color: #87B6F4;
+    border-radius: 10px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+}
+
+.month1{
+    width: 240px;
+    height: 120px;
+    border-right: 2px solid #000;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.month1 h1{
+    margin-top: 10px;
+}
+
+.month2{
+    margin-left: 40px;
+    
+}
+.summery .inventory-summury{
+    margin-left: -20px;
+}
+
+.summery .inventory-summury .item{
+    width: 290px;
+    height: 145px;
+    border-radius: 10px;
+    margin-bottom: -30px;
+    margin-top: -18px;
+    background-color: #123058;
+    
+}
+
+.summery .inventory-summury .item h1{
+   font-size: 60px;
+   font-weight: 400;
+   margin-left: 40px;
+   padding-top: 20px;
+   margin-bottom: 30px;
+}
+
+.summery .inventory-summury .item h6{
+    color: #87B6F4;
+    margin-top: -25px;
+    margin-left: 40px;
+ }
+
+.dashbord .summery .summery-sales{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.summery .summery-sales .ful-dashboard{
+    display: flex;
+    flex-direction: row;
+}
+
+.dashbord .summery .summery-sales .ful-dashboard .inventory-summury h1{
+    color: #87B6F4;
+
+}
+.top-selling{
+    width: 570px;
+}
+.top-selling h4{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+.quentity{
+    width: 570px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #87B6F4;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.quentity .item-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.details{
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.details h5{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.quentity .details p{
+    line-height: 10px;
+    margin-top: 0px;
+}
+.quentity p{
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: beige;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+
+.top-selling{
+    margin-top: -30px;
+}
+.ful-dashboard h4{
+    margin-bottom: 0px;
+}
+.inventory-summury h4{
+    margin-bottom: -30px;
+}
+
+.quintity-items h4{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.quintity-items .quentity{
+    margin-left: 20px;
+
+}
+
+.total-item-and-arrow{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.total-item-and-arrow div h6{
+    width: 100px;
+}
+.total-item-and-arrow img{
+    margin-top: -30px;
+    margin-left: 90px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #123058;
+  }
+  
+.sample-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+.sample-table th, .sample-table td {
+
+padding: 8px;
+text-align: left;
+}
+
+.heading{
+border-top: 2px solid #87B6F4;
+border-bottom: 2px solid #87B6F4;
+font-weight: 100;
+margin-bottom: 100px;
+}
+
+.sample-table th, .sample-table td {
+    padding: 8px;
+    text-align: left;
+    font-weight: 700;
+    height: 40px; /* Set the width of the columns as needed */
+  }
+table {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@media (min-width: 1600px) {
+    .navbar {
+        width: 300px; /* Change the width to 100px for iPad-sized screens */
+    }
+
+    .home {
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        background-color: white;
+        border: 0px;
+        border-radius: 10px;
+        transition: background-color 0.3s; /* Add transition for a smooth effect */
+        cursor: pointer; /* Add cursor pointer for better user interaction */
+    }
+
+    .setting{
+        margin-top: 200px;
+        
+    }
+    .setting1{
+        margin-top: 10px;
+        
+    }
+
+    .home h3{
+        margin-left: 20px;
+        text-decoration: none;
+    }
+
+    .home svg{
+        margin-top: 10px;
+        margin-left: 20px;  
+        width: 30px;
+        height: 30px;
+    }
+    .dashbord{
+        width: 100%;
+        height: 100%;
+    }
+
+    .dashbord-page .navbar .home:hover h3{
+        color: white;
+    }
+
+    .dashbord-page .navbar .home:hover{
+        background-color: #123058;
+        color: white;
+        fill: aliceblue;
+        width: 300px;
+    }
+
+    .dashbord-page .navbar hr{
+        width: 250px;
+    }
+    .home h3{
+        font-size: 20px;
+    }
+
+    .dashbord-page .navbar .logo img{
+        width: 200px;
+        padding: 20px;
+    }
+
+
+    .dashbord .title{
+        display: flex;
+        flex-direction: row;
+        height: 45px;
+        width: 100%;
+    }
+
+    .dashbord .title h2{
+        margin-left: 60px;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .bell{
+        margin-left: 60%;
+        background-color: #87B6F4;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 7px;
+    }
+    .profile{
+        margin-left: 30px;
+        background-color: #87B6F4;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 7px;
+    }
+    .profileName{
+        margin-left: 10px;
+        font-size: 25px;
+        margin-top: 7px;
+    }
+
+    
+    .dashbord-page .summery{
+        width: 100%;
+        height: 830px;
+        background-color: rgb(234, 234, 234);
+        margin: -20px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 20px;
+    }
+    
+    .dashbord-page .summery .summery-sales{
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        padding-left: 30px;
+        padding-top: 30px;
+        width: 95%;
+        height: 100%;
+        background-color: white;
+        box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .analitic{
+        display: flex;
+        flex-direction: row;
+    }
+    .analitic svg{
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        border-radius: 50%;
+        background-color: #123058;
+        margin-right: 20px;
+        fill: #87B6F4;
+    }
+    .analitic .sales-month{
+        margin-top: 5px;
+    }
+    
+    .analitic .sales-month h5{
+        line-height: 5px;
+        margin-top: -1px;
+        font-size: 20px;
+        margin-bottom: 18px;
+    
+    }
+    
+    .month{
+        margin-top: 10px;
+        width: 104%;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        background-color: #87B6F4;
+        border-radius: 10px;
+        margin-right: 30px;
+        display: flex;
+        flex-direction: row;
+        height: 180px;
+    }
+    
+    .month1{
+        width: 28%;
+        height: 150px;
+        border-right: 2px solid #000;
+        margin-right: 10px;
+        
+    }
+    
+    .month1 h1{
+        margin-top: 10px;
+    }
+    
+    .month2{
+        margin-left: 40px;
+        
+    }
+    .month2 h1{
+        margin-top: 17px;
+        
+    }
+    .summery .inventory-summury{
+        margin-left: -20px;
+    }
+    
+    .summery .inventory-summury .item{
+        width: 80%;
+        height: 195px;
+        border-radius: 10px;
+        margin-bottom: -30px;
+        margin-top: -42px;
+        margin-left: 90px;
+        background-color: #123058;
+        
+    }
+    
+    .summery .inventory-summury .item h1{
+       font-size: 80px;
+       font-weight: 400;
+       margin-left: 40px;
+       padding-top: 20px;
+       margin-bottom: 30px;
+    }
+    
+    .summery .inventory-summury .item h6{
+        color: #87B6F4;
+        margin-top: -25px;
+        margin-left: 40px;
+     }
+    
+    .dashbord .summery .summery-sales{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .summery .summery-sales .ful-dashboard{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .dashbord .summery .summery-sales .ful-dashboard .inventory-summury h1{
+        color: #87B6F4;
+    
+    }
+    .top-selling{
+        width: 50%;
+    }
+    .top-selling h4{
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    
+    .bottom{
+        display: flex;
+        flex-direction: row;
+    }
+    .quentity{
+        width: 570px;
+        height: 70px;
+        border-radius: 10px;
+        background-color: #87B6F4;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+    
+    .quentity .item-img{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    
+    .details{
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+    
+    .details h5{
+        margin-top: -10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-weight: 500;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .sample-table th{
+        font-size: 16px;
+    }
+    
+    .quentity .details p{
+        line-height: 10px;
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .quentity p{
+        margin-top: 25px;
+        font-weight: 500;
+        font-size: 18px;
+        width: 15%;
+    }
+    
+    .arrow{
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+        background-color: beige;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 20%;
+        
+    }
+    
+    
+    .top-selling{
+        margin-top: -30px;
+    }
+    .ful-dashboard h4{
+        margin-bottom: 0px;
+        font-size: 25px;
+        margin-right:20px ;
+    }
+    .inventory-summury h4{
+        margin-bottom: -30px;
+        margin-left: 100px;
+    }
+
+    .quintity-items{
+        width: 36%;
+    }
+    .quintity-items h4{
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .month1 h1{
+        font-size: 45px;
+    }
+
+    .month2 h1{
+        font-size: 45px;
+    }
+
+    .quintity-items .quentity{
+        margin-left: 20px;
+        width: 122%;
+        height: 80px;
+        padding-right: 20px;
+    }
+    
+    .total-item-and-arrow{
+        display: flex;
+        flex-direction: row;
+        ;
+    }
+    
+    .total-item-and-arrow div h6{
+        width: 100px;
+        font-size: 15px;
+    }
+    .total-item-and-arrow img{
+        margin-top: -30px;
+        margin-left: 90px;
+    }
+      
+    .sample-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    }
+    
+    .sample-table th, .sample-table td {
+    
+    padding: 8px;
+    text-align: left;
+    }
+    
+    .heading{
+    border-top: 2px solid #87B6F4;
+    border-bottom: 2px solid #87B6F4;
+    font-weight: 100;
+    margin-bottom: 100px;
+    }
+    
+    .sample-table th, .sample-table td {
+        padding: 8px;
+        text-align: left;
+        font-weight: 700;
+        height: 40px; /* Set the width of the columns as needed */
+      }
+    table {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+}
+
+  
+
+  
+
+  

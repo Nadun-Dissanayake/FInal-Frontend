@@ -1,0 +1,42 @@
+.category{
+    margin-left: 522px;
+    margin-bottom: 50px;
+}
+.summery .summery-sales .category-table {
+}
+.category-navbar{
+    margin-left: 799px;
+}
+.newWindow .row .column .long{
+    width: 355px;
+}
+
+.bell{
+    margin-left: 60%;
+}
+
+@media (min-width: 1600px){
+    .category{
+        margin-left: 50%;
+        margin-bottom: 50px;
+    }
+    .summery .summery-sales .category-table {
+    }
+    .category-navbar{
+        margin-left: 799px;
+    }
+    .newWindow .row .column .long{
+        width: 1000px;
+    }
+    
+    .bell{
+        margin-left: 60%;
+    }
+    th span{
+        font-size: 20px;
+    }
+    td span{
+        font-size: 18px;
+        font-weight: 300;
+    }
+}

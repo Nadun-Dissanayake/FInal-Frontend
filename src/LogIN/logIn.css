@@ -1,0 +1,151 @@
+body {
+    overflow-x: hidden;
+}
+
+.login-page {
+    display: flex;
+    background-color: #ccc;
+    height: 100%;
+}
+
+.logo-container2 {
+    flex: 1;
+    padding: 20px;
+    
+    margin-top: 230px;
+}
+.getstart-text1 {
+    margin-left: 140px;
+}
+
+.login-card {
+    flex: 4;
+    width: 80%;
+    height: 90%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 260px;
+}
+
+.form2{
+    margin-top: 70px;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.single-column-form1 {
+    display: flex;
+    flex-direction: column;
+}
+.single-column-form1 input::placeholder {
+    color: rgb(165, 217, 250); 
+}
+
+
+
+.form-row3{
+    margin-left: 140px;
+}
+.form-row4 {
+    display: flex;
+    width: 90%;
+    border-radius: 50px;
+    margin-left: 160px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.form-row5 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    
+}
+
+.form-row5 label {
+    font-size: 12px;
+    font-weight: bold;
+    width: auto;
+    margin-right: 45px;
+    
+}
+
+.form-row5 input {
+    
+    width: auto;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    color: blue;
+    background-color: #eaeaea;
+}
+
+.social-icons1 {
+    display: flex;
+    width: 100px;
+    margin-left: 220px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.social-icons1 img {
+    max-width: 20px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+}
+
+.submit-btn {
+    width: 90%;
+    padding: 10px; /* Increase the padding for a larger button */
+    border: none;
+    border-radius: 8px;
+    background-color: #130159;
+    color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.login-method{
+    margin-top: 40px;
+    margin-left: 260px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.last1{
+    margin-left: 180px;
+}
+
+.error-message{
+    color: red;
+    margin-left: 230px;
+    width: 300px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
